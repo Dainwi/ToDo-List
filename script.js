@@ -11,11 +11,6 @@ function addTask() {
     li.innerHTML = inputBox.value;
     listContainer.appendChild(li);
 
-    // create a delete button
-    // let deleteBtn = document.createElement("span");
-    // deleteBtn.innerHTML = "\u00d7";
-    // li.appendChild(deleteBtn);
-
     // create delete button
     let deleteBtn = document.createElement("span");
     deleteBtn.innerHTML = "\u00d7";
